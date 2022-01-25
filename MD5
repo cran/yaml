@@ -1,5 +1,5 @@
 bbba10d958545e3425cc20f316d9da75 *COPYING
-a221dbad3bb496c69f7bc2ccb9658a79 *DESCRIPTION
+da26e0f99f2f0301528412d29aad270f *DESCRIPTION
 98b6f1d7e7a36de0353698db9027b614 *LICENSE
 17a16244d43d0cfe5439535f4695dd7f *NAMESPACE
 b901a42735294b31cf1d91b526714858 *R/as.yaml.R
@@ -8,8 +8,8 @@ b901a42735294b31cf1d91b526714858 *R/as.yaml.R
 8b6372c5e7440430f4cfadd9fe168a24 *R/yaml.load.R
 363c5793776f7b432b777ecf3966d950 *R/yaml.load_file.R
 59d3ef441a03e63a67784ef7d111f8fe *R/zzz.R
-9769fdbe8107879a75976b3f8e66c479 *inst/CHANGELOG
-f0a1646d0486e242e59e280cd842ae0d *inst/THANKS
+1d34aeb895260ea947c0003e9605d3a3 *inst/CHANGELOG
+616265f0a9f5aacfdec8802f2e82d5ff *inst/THANKS
 209752829e0543e43d1aa9dcf4c8ddf9 *inst/implicit.re
 0625a433dcef8def801ea9ed2a7396c9 *inst/tests/files/merge.yml
 b70b0ade3126a031e5bf77d8aa9af4f2 *inst/tests/files/test.yml
@@ -18,10 +18,10 @@ ea58113433e31b75ea47a91797e97106 *inst/tests/test_read_yaml.R
 f0258adf12eff3e4ef781d06ed5ca659 *inst/tests/test_write_yaml.R
 b34ce0cb01f20793d5a29f9e5a7d790b *inst/tests/test_yaml_load.R
 950db19b6035d7ba6d9af37347a5a501 *inst/tests/test_yaml_load_file.R
-52adf737c1e77a60b9026b4b1f04de55 *man/as.yaml.Rd
-66bde0aa5a9040fba09ba45f3e119f52 *man/read_yaml.Rd
+7a24574f29bd6438b57aacb8b0026baa *man/as.yaml.Rd
+f79bcd3903860eefa6a1cac15dfc94ff *man/read_yaml.Rd
 466b1a01bd0eead68a25633559e01ad3 *man/write_yaml.Rd
-ca2808ac99ec3e31a8e7bd8b370dcd32 *man/yaml.load.Rd
+5d2bf5fcbffcd7f6d5bf0559b4bfb36e *man/yaml.load.Rd
 6b0576349be43cf3d872205b41aff77d *src/Makevars
 e65bbd59ff4430b3b9bade49423ea066 *src/api.c
 948f2ac1f42b36f9b6ed10ce0291bdb9 *src/dumper.c
@@ -30,7 +30,7 @@ ac7bfac5c1629dd498b3344af3aef5a7 *src/implicit.c
 48ac40f4d75fe6b851db1baad7b3c82d *src/loader.c
 e5b8c176168b678cdcfb14fdaf2e98d3 *src/parser.c
 8d0c428a404cd1121f4aa7f763eae8aa *src/r_emit.c
-4c4c2e8ee0a13ab91af0a0db7d869b8c *src/r_ext.c
+cfc4b5d58ac887bf2dd6011cefccbe49 *src/r_ext.c
 acc43ebc0942c7ec36f4f13ef2fc4747 *src/r_ext.h
 856b7bea0f5378e69b0651661e6a8ba9 *src/r_parse.c
 efcea8b4a8bcfbc96ae32abd0f18e472 *src/reader.c
@@ -38,4 +38,4 @@ a344bb1d48ab1800e4b872bb6f026156 *src/scanner.c
 7b2e815cfd48dbfd462f3bd317059e3f *src/writer.c
 c2131d7abf1b9c86588c73aef741c14e *src/yaml.h
 4b597a363c432743e5c0172eb5fc053d *src/yaml_private.h
-ca7a25cb389c2c02888c3ce9095e65bc *tests/RUnit.R
+6a3f8273ac9411744a7cacabb5edef3e *tests/RUnit.R
