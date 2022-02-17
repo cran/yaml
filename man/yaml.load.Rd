@@ -8,9 +8,9 @@
 }
 \usage{
   yaml.load(string, as.named.list = TRUE, handlers = NULL, error.label = NULL,
-            eval.expr = getOption("yaml.eval.expr", TRUE),
+            eval.expr = getOption("yaml.eval.expr", FALSE),
             merge.precedence = c("order", "override"), merge.warning = FALSE)
-  yaml.load_file(input, error.label, ...)
+  yaml.load_file(input, error.label, readLines.warn=TRUE, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -22,6 +22,7 @@
   \item{eval.expr}{ whether or not to evaluate expressions found in the YAML document (see Details) }
   \item{merge.precedence}{ behavior of precedence during map merges (see Details) }
   \item{merge.warning}{ whether or not to warn about ignored key/value pairs during map merges }
+  \item{readLines.warn}{logical (default:TRUE) suppress warnings from readLines used inside read_yaml}
   \item{...}{ arguments to pass to yaml.load }
 }
 \details{
@@ -55,13 +56,11 @@
   \code{error.label} to \code{NULL} if you don't want to use this functionality.
 
   There is a built-in handler that will evaluate expressions that are tagged
-  with the \sQuote{!expr} tag.  Currently this handler is enabled by default,
-  but the handler is being disabled by default in an upcoming version for
-  safety and security reasons.  If you do not explicity set the
-  \code{eval.expr} argument to \code{TRUE}, you will get a warning if an
-  expression is evaluated.  Alternately, you can set the option named
-  \sQuote{yaml.eval.expr} via the \code{options} function to turn off the
-  warning.
+  with the \sQuote{!expr} tag.  Currently this handler is disabled by default
+  for security reasons.  If a \sQuote{!expr} tag exists and this is set to 
+  FALSE a warning will occur. Alternately, you can set the option named
+  \sQuote{yaml.eval.expr} via the \code{options} function to turn on 
+  evaluation.
 
   The \code{merge.precedence} parameter controls how merge keys are handled.
   The YAML merge key specification is not specific about how key/value
@@ -120,7 +119,7 @@
 
   # loading R expressions
   # NOTE: this will not be done by default in the near future
-  doc <- yaml.load("inc: !expr function(x) x + 1")
+  doc <- yaml.load("inc: !expr function(x) x + 1", eval.expr=TRUE)
   doc$inc(1)
 
   # adding a label to error messages
