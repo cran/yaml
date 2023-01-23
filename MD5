@@ -1,6 +1,6 @@
 bbba10d958545e3425cc20f316d9da75 *COPYING
-6edd111ef1a7ce095a61ebc07e1c604d *DESCRIPTION
-98b6f1d7e7a36de0353698db9027b614 *LICENSE
+f1de57ea2406878a414eeff439a66ecb *DESCRIPTION
+59797fdd34baf532ba0e4c97bc5e3cf8 *LICENSE
 17a16244d43d0cfe5439535f4695dd7f *NAMESPACE
 b901a42735294b31cf1d91b526714858 *R/as.yaml.R
 0bb1cc5151f96c8da86eb7080d697e52 *R/read_yaml.R
@@ -8,7 +8,7 @@ b901a42735294b31cf1d91b526714858 *R/as.yaml.R
 29e454510ffb615b4391eb999ba99670 *R/yaml.load.R
 58bb803b31e71d93b9279a3c74fc1552 *R/yaml.load_file.R
 59d3ef441a03e63a67784ef7d111f8fe *R/zzz.R
-538ef858c6ec8def07410f539906ff7b *inst/CHANGELOG
+d80709e9248820ed1455ad21562b95ad *inst/CHANGELOG
 616265f0a9f5aacfdec8802f2e82d5ff *inst/THANKS
 39a3d6c0eded3941e7ca0d3c1b26f8a5 *inst/implicit.re
 0625a433dcef8def801ea9ed2a7396c9 *inst/tests/files/merge.yml
@@ -24,7 +24,7 @@ b28b3dca8fb45d671bf003f30de49879 *man/as.yaml.Rd
 baab030c01a0f2f7eeb99c8d7355c014 *man/yaml.load.Rd
 6b0576349be43cf3d872205b41aff77d *src/Makevars
 67daa508265c6140db6d048c9a587978 *src/api.c
-948f2ac1f42b36f9b6ed10ce0291bdb9 *src/dumper.c
+a2657fec1bbeca766a5e1cb0a9458a05 *src/dumper.c
 a085415195f7814d2bbca52ec4e517d1 *src/emitter.c
 9cfda206be239794d470b8148bbc9a69 *src/implicit.c
 adea9625fc3b724041e4a5e3947392f8 *src/loader.c
