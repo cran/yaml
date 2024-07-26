@@ -1,5 +1,5 @@
 bbba10d958545e3425cc20f316d9da75 *COPYING
-6604e5be6f72cfd7262278d024da7ea0 *DESCRIPTION
+5278c4d7670de4f2da09d28f247ddf0c *DESCRIPTION
 59797fdd34baf532ba0e4c97bc5e3cf8 *LICENSE
 84e3c05130718b3c373f57fbb809cb86 *NAMESPACE
 b901a42735294b31cf1d91b526714858 *R/as.yaml.R
@@ -21,14 +21,14 @@ f0258adf12eff3e4ef781d06ed5ca659 *inst/tests/test_write_yaml.R
 f6e8413262b60d2b926f4cbad12b1bed *inst/tests/test_yaml_load_file.R
 303be7867757feba4aad55b866e01946 *man/as.yaml.Rd
 11563d3fabb3788f025131444aa35e8b *man/read_yaml.Rd
-0b2030532868feea28c54a3600fddaa9 *man/verbatim_logical.Rd
+7d3fa3c44907d6bc1f75218ce9320b18 *man/verbatim_logical.Rd
 466b1a01bd0eead68a25633559e01ad3 *man/write_yaml.Rd
 0bc574ee3d2e29384ea279c4f196f0ab *man/yaml.load.Rd
 6b0576349be43cf3d872205b41aff77d *src/Makevars
 67daa508265c6140db6d048c9a587978 *src/api.c
-a2657fec1bbeca766a5e1cb0a9458a05 *src/dumper.c
+e2a407572c0b2d2f37c8eafa9a04a62b *src/dumper.c
 a085415195f7814d2bbca52ec4e517d1 *src/emitter.c
-9cfda206be239794d470b8148bbc9a69 *src/implicit.c
+523618f225516d85abf4c1c963aa0496 *src/implicit.c
 adea9625fc3b724041e4a5e3947392f8 *src/loader.c
 9c4f0181665c37d4bcdd05535e6a2130 *src/parser.c
 d7543ba902b6e98b49fecc0f3276e0a1 *src/r_emit.c
