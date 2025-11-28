@@ -1,6 +1,6 @@
-bbba10d958545e3425cc20f316d9da75 *COPYING
-5278c4d7670de4f2da09d28f247ddf0c *DESCRIPTION
-59797fdd34baf532ba0e4c97bc5e3cf8 *LICENSE
+147502232f0619bb1aba28b639acfc5a *COPYING
+5387af54fcec11a69d983cea23787a8e *DESCRIPTION
+109ab39704a7bff323aef74922cab26e *LICENSE
 84e3c05130718b3c373f57fbb809cb86 *NAMESPACE
 b901a42735294b31cf1d91b526714858 *R/as.yaml.R
 0bb1cc5151f96c8da86eb7080d697e52 *R/read_yaml.R
@@ -9,7 +9,7 @@ b901a42735294b31cf1d91b526714858 *R/as.yaml.R
 29e454510ffb615b4391eb999ba99670 *R/yaml.load.R
 58bb803b31e71d93b9279a3c74fc1552 *R/yaml.load_file.R
 59d3ef441a03e63a67784ef7d111f8fe *R/zzz.R
-76a8e161e6b42aba2ffd2d3f1777a8f1 *inst/CHANGELOG
+f60420f3e6060d193951bdb626022110 *inst/CHANGELOG
 616265f0a9f5aacfdec8802f2e82d5ff *inst/THANKS
 39a3d6c0eded3941e7ca0d3c1b26f8a5 *inst/implicit.re
 0625a433dcef8def801ea9ed2a7396c9 *inst/tests/files/merge.yml
@@ -27,11 +27,11 @@ f6e8413262b60d2b926f4cbad12b1bed *inst/tests/test_yaml_load_file.R
 6b0576349be43cf3d872205b41aff77d *src/Makevars
 67daa508265c6140db6d048c9a587978 *src/api.c
 e2a407572c0b2d2f37c8eafa9a04a62b *src/dumper.c
-a085415195f7814d2bbca52ec4e517d1 *src/emitter.c
+466fb0339ebce1bec559df02ac7e80cf *src/emitter.c
 523618f225516d85abf4c1c963aa0496 *src/implicit.c
 adea9625fc3b724041e4a5e3947392f8 *src/loader.c
 9c4f0181665c37d4bcdd05535e6a2130 *src/parser.c
-d7543ba902b6e98b49fecc0f3276e0a1 *src/r_emit.c
+de4feec843154447b06aa5e07df8d320 *src/r_emit.c
 54485eec23a3e3416821863f93d97753 *src/r_ext.c
 f5356570d02218afeeb754a9827ec9e5 *src/r_ext.h
 d12dfca0fc247f8cc9e48e60bef17429 *src/r_parse.c
